@@ -9,11 +9,11 @@ node {
    }
    stage("unit testing")
    {
-       echo "Test completed"
+       echo "Test1 completed"
        
    }
    stage("deploy")
    {
-       echo "deploy completed"
+       echo "deploy1 completed"
    }
 }
